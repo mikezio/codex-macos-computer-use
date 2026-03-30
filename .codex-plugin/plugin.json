@@ -1,0 +1,37 @@
+{
+  "name": "macos-computer-use",
+  "version": "0.2.0",
+  "description": "Guarded local macOS desktop control for Codex.",
+  "author": {
+    "name": "Mike"
+  },
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "desktop",
+    "automation",
+    "computer-use",
+    "codex",
+    "qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "macOS Computer Use",
+    "shortDescription": "Inspect and operate approved macOS apps from Codex",
+    "longDescription": "A local Codex plugin that adds screenshot-first, approval-aware macOS desktop control for app verification, QA, and local workflow automation.",
+    "developerName": "Mike",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use macOS Computer Use to open an allowed app, inspect the UI, and verify my local build.",
+      "Use macOS Computer Use to take a screenshot, click through a low-risk flow, and tell me what changed.",
+      "Use macOS Computer Use to focus Xcode, inspect the simulator, and verify whether the latest build actually worked."
+    ],
+    "brandColor": "#10A37F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

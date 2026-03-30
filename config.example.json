@@ -1,0 +1,31 @@
+{
+  "allowed_apps": [
+    "Safari",
+    "Google Chrome",
+    "Finder",
+    "Terminal",
+    "iTerm",
+    "Xcode",
+    "Simulator",
+    "Codex"
+  ],
+  "blocked_hotkeys": [
+    "cmd+q",
+    "cmd+w",
+    "cmd+option+esc",
+    "cmd+ctrl+q",
+    "ctrl+eject"
+  ],
+  "require_approval_for": [
+    "type_text",
+    "press_key",
+    "hotkey",
+    "drag"
+  ],
+  "screenshot_dir": "~/Pictures/codex-macos-operator",
+  "log_file": "~/.local/state/macos-computer-use/audit.jsonl",
+  "disable_file": "~/.config/macos-computer-use/DISABLED",
+  "screenshot_format": "png",
+  "max_click_count": 2,
+  "max_drag_seconds": 2.0
+}
