@@ -24,6 +24,18 @@ The helper follows the same core computer-use loop OpenAI documents for the API:
 - `scripts/install_repo_marketplace.sh` for a repo-scoped install
 - `tests/` with unit tests for the non-macOS logic
 - `docs/` with architecture, threat model, and release notes
+- `assets/` with install-safe placeholders and detailed final art direction
+
+## Asset status
+
+The repository currently uses clean placeholder icon and logo assets so the install surface is complete today without pretending the visual pass is finished.
+
+The full replacement brief lives in `assets/README.md` and includes:
+
+- the final icon direction
+- the final wide logo direction
+- the final preview screenshot direction
+- negative prompts and quality bar guidance
 
 ## Design goals
 

@@ -3,7 +3,7 @@
 ## 0.2.0
 
 - upgraded manifest to a richer published style shape
-- added icon and logo assets
+- added install-safe placeholder assets and a detailed final art direction brief
 - added `snapshot`, `screen-info`, `focus-app`, and `wait` commands
 - added `--dry-run` and `--expect-frontmost`
 - added a kill switch file and logging redaction for typed text

@@ -31,7 +31,7 @@
       "Use macOS Computer Use to focus Xcode, inspect the simulator, and verify whether the latest build actually worked."
     ],
     "brandColor": "#10A37F",
-    "composerIcon": "./assets/icon.png",
-    "logo": "./assets/logo.png"
+    "composerIcon": "./assets/icon-placeholder.svg",
+    "logo": "./assets/logo-placeholder.svg"
   }
 }
